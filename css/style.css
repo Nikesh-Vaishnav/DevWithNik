@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+
+body {
+  background-color: beige;
+  color: rgb(29, 29, 141);
+}
+
+
+.navbar {
+  position: fixed;
+  z-index: 1000;
+  margin-top: 0;
+  width: 100%;
+  background: rgb(196, 196, 173);
+  color: rgb(29, 29, 141);
+}
+
+
+hr {
+  border: none;
+  height: 3px;
+  margin: 5%;
+  background-color: #b82020;
+}
+
+.buttons {
+  background: rgb(29, 29, 141);
+  color: beige;
+}
+
+
+.buttons:hover{
+  background: rgb(101, 101, 254);
+  color: black;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.x-logo {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+}
+
+
+
+.carousel-item {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.technology .card {
+  border-radius: 10px;
+  background: rgb(29, 29, 141);
+  color: beige;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.services .card {
+  border-radius: 10px;
+  background: rgb(29, 29, 141);
+  color: beige;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.technology .card:hover {
+  transform: translateY(-5px);
+}
+
+
+.services .card:hover {
+  transform: translateY(-5px);
+}
+
+.technology .card-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.technology .card-body i {
+  font-size: 24px;
+  margin-right: 8px;
+}
